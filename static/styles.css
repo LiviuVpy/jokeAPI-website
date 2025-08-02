@@ -1,0 +1,121 @@
+body{
+    display:block;
+    justify-content: center;
+}
+
+.flashed-msg{
+    color: red;
+    margin: 0;
+}
+
+.py-5 {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    justify-content:space-around;
+}
+
+.col-lg-6{
+    display: block;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.row>* {
+   margin-top: 10px; 
+}
+
+hr {
+    color: chocolate;
+
+}
+
+
+.form-check-input:checked {
+    background-color: #072230;
+    border-color: rgb(1, 1, 71);
+    --bs-form-check-input-color: black !important;
+}
+
+.clearfix{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#wrapper{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.form-select{
+    width:auto;
+    border: var(--bs-border-width) solid chocolate;
+}
+
+.form-check-input[type=radio] {
+    border: var(--bs-border-width) solid chocolate;
+}
+
+#filter{
+    justify-content: center;
+}
+
+.hint{
+    padding: 3px;
+    margin: 3px;
+}
+
+.btn{
+    border: var(--bs-border-width) solid chocolate;
+    --bs-btn-hover-color: chocolate;
+}
+
+.nav-link{
+    --bs-nav-link-hover-color: chocolate;
+}
+
+a {
+    color: black;
+}
+a:hover{
+    color: chocolate;
+}
+
+.my-5{
+    
+    justify-content: center;
+}
+
+
+/* CHANGE THE BLUE FROM BOOTSTRAP*/
+.form-select:focus{
+    border-color: chocolate !important;
+    
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.form-check-input[type=checkbox] {
+    border-color: chocolate !important;
+    outline:chocolate;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.form-check-input:checked {
+    border-color: black !important;
+    outline: #072230;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+
+
+/* footer */
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: smaller;
+}

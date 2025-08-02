@@ -1,0 +1,32 @@
+{% include "header.html" %}
+
+<!-- Page Header -->
+      <header>
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="site-heading">
+                <h1>A collection of consistently formatted jokes.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+<!-- Main Content-->
+
+
+<div class="my-5"> 
+    <div class="p-5 text-center bg-body-tertiary"> 
+        <div class="container py-5"> 
+            <h5 class="text-body-emphasis">{{category}}</h5> 
+            <p class="col-lg-8 mx-auto lead">{{joke_text}}</p> 
+        </div>
+        <button onClick="window.location.reload();" class="btn btn-outline-dark rounded-pill px-3" type="button">One more!</button> 
+    </div>
+     
+</div>
+
+{% include "footer.html" %}
+
